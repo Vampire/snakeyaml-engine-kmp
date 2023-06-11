@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/2.7-SNAPSHOT/snakeyaml-engine-kmp-2.7-SNAPSHOT.module",
+    "group": "org.snakeyaml",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7-SNAPSHOT.klib",
+          "url": "snakeyaml-engine-kmp-js-2.7-SNAPSHOT.klib",
+          "size": 458531,
+          "sha512": "0dfed0c1cccee07aef48329ca801c9ff2a595c337613c4d081b7f71f38895c582a88b518d8aa13ebedcdf04ac25505b824c0e6bb3aa26f7eb073d3e88a942d33",
+          "sha256": "78fd5f199b8a161900339a092899bf7afcdb29908e2a83d0aa9a2ae3085e1b75",
+          "sha1": "924fb3a03f8c65086b9812237ea81ef79197f589",
+          "md5": "4ad0c6f21ba7a84a311cf80a20d691ee"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7-SNAPSHOT.klib",
+          "url": "snakeyaml-engine-kmp-js-2.7-SNAPSHOT.klib",
+          "size": 458531,
+          "sha512": "0dfed0c1cccee07aef48329ca801c9ff2a595c337613c4d081b7f71f38895c582a88b518d8aa13ebedcdf04ac25505b824c0e6bb3aa26f7eb073d3e88a942d33",
+          "sha256": "78fd5f199b8a161900339a092899bf7afcdb29908e2a83d0aa9a2ae3085e1b75",
+          "sha1": "924fb3a03f8c65086b9812237ea81ef79197f589",
+          "md5": "4ad0c6f21ba7a84a311cf80a20d691ee"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-js-2.7-SNAPSHOT-sources.jar",
+          "size": 183842,
+          "sha512": "f5fb6a4aad6711f5f5b2917f8a7dfa4c04770c61a04b1fcdce07f29499b83b55f7a4c36f63a4c0f82119164ddb36f23b43ccc1f484d48acff634cbcfc22bde5e",
+          "sha256": "607e7505eae7083f16b8dbc3c68d15001a19477e764c1fc6be0ebaaffdcf1a2c",
+          "sha1": "94014782f173dd271cb414bde5a4f6594fff18e6",
+          "md5": "db94312c9b37115af171af54cf2684d7"
+        }
+      ]
+    }
+  ]
+}

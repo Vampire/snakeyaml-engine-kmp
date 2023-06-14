@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/2.7-SNAPSHOT/snakeyaml-engine-kmp-2.7-SNAPSHOT.module",
+    "group": "org.snakeyaml",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp.klib",
+          "url": "snakeyaml-engine-kmp-mingwx64-2.7-SNAPSHOT.klib",
+          "size": 411455,
+          "sha512": "0284e907c0cf7b053b8c9d0bdf3ec81df14c19230b02b1c4d65e1c2a2ecee8302f53adca9f6118013e0b5a3faec55f6e7ba3ab79e994b7c1c29a986bc200db8a",
+          "sha256": "d3c607cb14f09c99e129e51a23c757c40c9acbff6ede5054f94f3942eab1fe67",
+          "sha1": "87739d418c47a88307323c362c4dc2e2767db8f8",
+          "md5": "9cc655d2f5c84f2c5b5bd39e991f1992"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-mingwx64-2.7-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-mingwx64-2.7-SNAPSHOT-sources.jar",
+          "size": 183365,
+          "sha512": "12cb4943965c47c9ca002847e35615637905a737caa4d8da22faa70f733b35637359694ece29f541630dd8a9929c7fa97ba9e70f26324860e9ef45b53f944661",
+          "sha256": "76de96fe37ad48be63f563b40ff356e3ec24cc4c3b6b70de1dc0db87b40cc00e",
+          "sha1": "98f6d49213aa70c41996718e64baf9dc6de98b5a",
+          "md5": "7e850c6bca96514fc8f654cba1653a2d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.snakeyaml",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-metadata-2.7-SNAPSHOT.jar",
+          "url": "snakeyaml-engine-kmp-2.7-SNAPSHOT.jar",
+          "size": 53951,
+          "sha512": "6d4fa6fb093c1a93b6f1252f5defec25f45df34c335ab0df9f485dae2ef65117d6399caf5f908d0d2e09dc1e0e915d1e7de572e14bb8304a41eb462de487e293",
+          "sha256": "40ee273c2da1c861d9fdc502095dff58edb286acde817bebe2e3087a1d0e8f5c",
+          "sha1": "360227925241b97902e47e5559f4f0abfa579631",
+          "md5": "587cd04b27ad60625bb5fd9cc53aa41b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-kotlin-2.7-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-2.7-SNAPSHOT-sources.jar",
+          "size": 183365,
+          "sha512": "12cb4943965c47c9ca002847e35615637905a737caa4d8da22faa70f733b35637359694ece29f541630dd8a9929c7fa97ba9e70f26324860e9ef45b53f944661",
+          "sha256": "76de96fe37ad48be63f563b40ff356e3ec24cc4c3b6b70de1dc0db87b40cc00e",
+          "sha1": "98f6d49213aa70c41996718e64baf9dc6de98b5a",
+          "md5": "7e850c6bca96514fc8f654cba1653a2d"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-js/2.7-SNAPSHOT/snakeyaml-engine-kmp-js-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-js",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-js/2.7-SNAPSHOT/snakeyaml-engine-kmp-js-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-js",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-js/2.7-SNAPSHOT/snakeyaml-engine-kmp-js-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-js",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-jvm/2.7-SNAPSHOT/snakeyaml-engine-kmp-jvm-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-jvm",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-jvm/2.7-SNAPSHOT/snakeyaml-engine-kmp-jvm-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-jvm",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-jvm/2.7-SNAPSHOT/snakeyaml-engine-kmp-jvm-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-jvm",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-linuxx64/2.7-SNAPSHOT/snakeyaml-engine-kmp-linuxx64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-linuxx64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-linuxx64/2.7-SNAPSHOT/snakeyaml-engine-kmp-linuxx64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-linuxx64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-macosarm64/2.7-SNAPSHOT/snakeyaml-engine-kmp-macosarm64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-macosarm64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-macosarm64/2.7-SNAPSHOT/snakeyaml-engine-kmp-macosarm64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-macosarm64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-macosarm64/2.7-SNAPSHOT/snakeyaml-engine-kmp-macosarm64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-macosarm64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-macosx64/2.7-SNAPSHOT/snakeyaml-engine-kmp-macosx64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-macosx64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-macosx64/2.7-SNAPSHOT/snakeyaml-engine-kmp-macosx64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-macosx64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-macosx64/2.7-SNAPSHOT/snakeyaml-engine-kmp-macosx64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-macosx64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-mingwx64/2.7-SNAPSHOT/snakeyaml-engine-kmp-mingwx64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-mingwx64",
+        "version": "2.7-SNAPSHOT"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../snakeyaml-engine-kmp-mingwx64/2.7-SNAPSHOT/snakeyaml-engine-kmp-mingwx64-2.7-SNAPSHOT.module",
+        "group": "org.snakeyaml",
+        "module": "snakeyaml-engine-kmp-mingwx64",
+        "version": "2.7-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>it.krzeminski</groupId>
+  <artifactId>snakeyaml-engine-kmp-macosarm64</artifactId>
+  <versioning>
+    <latest>2.7-SNAPSHOT</latest>
+    <versions>
+      <version>2.7-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230615102558</lastUpdated>
+  </versioning>
+</metadata>

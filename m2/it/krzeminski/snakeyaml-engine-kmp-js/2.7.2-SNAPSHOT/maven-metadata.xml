@@ -5,31 +5,31 @@
   <version>2.7.2-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20230915.091314</timestamp>
+      <timestamp>20230918.053406</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20230915091314</lastUpdated>
+    <lastUpdated>20230918053406</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>2.7.2-20230915.091314-1</value>
-        <updated>20230915091314</updated>
+        <extension>pom</extension>
+        <value>2.7.2-20230918.053406-1</value>
+        <updated>20230918053406</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>2.7.2-20230915.091314-1</value>
-        <updated>20230915091314</updated>
+        <extension>module</extension>
+        <value>2.7.2-20230918.053406-1</value>
+        <updated>20230918053406</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2.7.2-20230915.091314-1</value>
-        <updated>20230915091314</updated>
+        <value>2.7.2-20230918.053406-1</value>
+        <updated>20230918053406</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>2.7.2-20230915.091314-1</value>
-        <updated>20230915091314</updated>
+        <extension>klib</extension>
+        <value>2.7.2-20230918.053406-1</value>
+        <updated>20230918053406</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

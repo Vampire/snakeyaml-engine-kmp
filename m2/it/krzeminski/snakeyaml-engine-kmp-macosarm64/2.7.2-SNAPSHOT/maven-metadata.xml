@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-macosarm64</artifactId>
   <versioning>
-    <lastUpdated>20231212075644</lastUpdated>
+    <lastUpdated>20231212083448</lastUpdated>
     <snapshot>
-      <timestamp>20231212.075644</timestamp>
+      <timestamp>20231212.083448</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2.7.2-20231212.075644-1</value>
-        <updated>20231212075644</updated>
+        <value>2.7.2-20231212.083448-1</value>
+        <updated>20231212083448</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>2.7.2-20231212.075644-1</value>
-        <updated>20231212075644</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>2.7.2-20231212.075644-1</value>
-        <updated>20231212075644</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>2.7.2-20231212.075644-1</value>
-        <updated>20231212075644</updated>
+        <value>2.7.2-20231212.083448-1</value>
+        <updated>20231212083448</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>2.7.2-20231212.075644-1</value>
-        <updated>20231212075644</updated>
+        <value>2.7.2-20231212.083448-1</value>
+        <updated>20231212083448</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>2.7.2-20231212.083448-1</value>
+        <updated>20231212083448</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.7.2-20231212.083448-1</value>
+        <updated>20231212083448</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

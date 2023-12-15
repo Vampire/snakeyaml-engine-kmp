@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/2.7.2-SNAPSHOT/snakeyaml-engine-kmp-2.7.2-SNAPSHOT.module",
+    "group": "it.krzeminski",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp.klib",
+          "url": "snakeyaml-engine-kmp-macosx64-2.7.2-SNAPSHOT.klib",
+          "size": 437386,
+          "sha512": "90fbed57d55fd24b72dca53367ceeaa2a34b6afe4e1e28671b20743b5cea34e9ea76ec754a8c49fe546953cdd0c5f317e2a9e1074c1369f765f2cf305b9ee0d6",
+          "sha256": "cf6f80f60689b5bac58bbe5d50c80cea0189f10c8b534b16945414568b1d0257",
+          "sha1": "6aec962d3fb7198f89f683bbbb04eee38e0e49b1",
+          "md5": "d192a0f9f5bb1c8812c9f5c0dae5b23b"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-macosx64-2.7.2-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-macosx64-2.7.2-SNAPSHOT-sources.jar",
+          "size": 183205,
+          "sha512": "c5c686632fc9f1c22c6774898621efa81ac79db6660ee752c8c3d6a4e266679930cc6cdeb954f52a786fc0f4d04ecbe882103e73848f3edd0bd74e019d3e1248",
+          "sha256": "120fe87d901e146486a7363ef932f6d47771c9ea3623ae607befc1fe7d03c34c",
+          "sha1": "c2516305ce3602b918af211b2a3b3a27df95dcf5",
+          "md5": "fb8e2f9d55cbd16d03ea35181e4dade4"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-macosx64-2.7.2-SNAPSHOT-metadata.jar",
+          "url": "snakeyaml-engine-kmp-macosx64-2.7.2-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

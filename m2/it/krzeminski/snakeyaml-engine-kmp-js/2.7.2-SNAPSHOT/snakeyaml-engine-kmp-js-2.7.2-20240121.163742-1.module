@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/2.7.2-SNAPSHOT/snakeyaml-engine-kmp-2.7.2-SNAPSHOT.module",
+    "group": "it.krzeminski",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7.2-SNAPSHOT.klib",
+          "url": "snakeyaml-engine-kmp-js-2.7.2-SNAPSHOT.klib",
+          "size": 483691,
+          "sha512": "6fbf1d210e272c5c0c2f4cbc9e4452b69d54a0b62c9988948e22d63bc27d1c18e6f61b6ec28cb91b4f2f6f4421499b3bf0277c822c705f2d4bee7abe21906b8d",
+          "sha256": "d60dd611167f10e92bfbe7ed84117da3fb6448db79d1d06df17c85e5e423bba0",
+          "sha1": "4ce509907abd30f0511301103c3cbcd6a25f53d3",
+          "md5": "d5304f369e98c0b3f784e04ed3a19ceb"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7.2-SNAPSHOT.klib",
+          "url": "snakeyaml-engine-kmp-js-2.7.2-SNAPSHOT.klib",
+          "size": 483691,
+          "sha512": "6fbf1d210e272c5c0c2f4cbc9e4452b69d54a0b62c9988948e22d63bc27d1c18e6f61b6ec28cb91b4f2f6f4421499b3bf0277c822c705f2d4bee7abe21906b8d",
+          "sha256": "d60dd611167f10e92bfbe7ed84117da3fb6448db79d1d06df17c85e5e423bba0",
+          "sha1": "4ce509907abd30f0511301103c3cbcd6a25f53d3",
+          "md5": "d5304f369e98c0b3f784e04ed3a19ceb"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7.2-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-js-2.7.2-SNAPSHOT-sources.jar",
+          "size": 183292,
+          "sha512": "322dbd6a53ccadded7b1b11cdfcf3e54de8bc862f2523569f2e52ef4c8b8807381880d9e13cb5cfc6c3df7a97943698c8ec6a5b0d7ace91435be945f49a8cec3",
+          "sha256": "4483d23722dc05b048b81e3d12a3c16b48efe345c644918c7a8a77fb131ac91a",
+          "sha1": "39bd5d117a0172c5f528bf5909e72e115fd3608e",
+          "md5": "4bf8b3ade9fec25272e68cd1453b4b57"
+        }
+      ]
+    }
+  ]
+}

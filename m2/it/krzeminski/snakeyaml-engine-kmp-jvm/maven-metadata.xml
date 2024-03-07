@@ -3,11 +3,10 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-jvm</artifactId>
   <versioning>
-    <latest>2.7.3</latest>
-    <release>2.7.3</release>
+    <latest>2.7.4-SNAPSHOT</latest>
     <versions>
-      <version>2.7.3</version>
+      <version>2.7.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20240307103210</lastUpdated>
+    <lastUpdated>20240307103706</lastUpdated>
   </versioning>
 </metadata>

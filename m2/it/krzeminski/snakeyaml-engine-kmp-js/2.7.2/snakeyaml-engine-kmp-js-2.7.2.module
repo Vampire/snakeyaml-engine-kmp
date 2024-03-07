@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/2.7.2/snakeyaml-engine-kmp-2.7.2.module",
+    "group": "it.krzeminski",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7.2.klib",
+          "url": "snakeyaml-engine-kmp-js-2.7.2.klib",
+          "size": 473342,
+          "sha512": "c6213765863557e35facb1c37496b98d92f40881a98179789ddf4b2a77af14d07b248077e73b14a6df11d4c9493c0180621eaddd3be42853edfcfaaae8078e8e",
+          "sha256": "a0bdf1faaea1b3653ee8b972355a129917c0e3064ea3901f32266c0058b2b5f3",
+          "sha1": "0851098433a32f3182d2ad114741a8dbf6eb6686",
+          "md5": "8b0a073cceac4ad7ef4aa752f7c161a8"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "net.thauvin.erik.urlencoder",
+          "module": "urlencoder-lib",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7.2.klib",
+          "url": "snakeyaml-engine-kmp-js-2.7.2.klib",
+          "size": 473342,
+          "sha512": "c6213765863557e35facb1c37496b98d92f40881a98179789ddf4b2a77af14d07b248077e73b14a6df11d4c9493c0180621eaddd3be42853edfcfaaae8078e8e",
+          "sha256": "a0bdf1faaea1b3653ee8b972355a129917c0e3064ea3901f32266c0058b2b5f3",
+          "sha1": "0851098433a32f3182d2ad114741a8dbf6eb6686",
+          "md5": "8b0a073cceac4ad7ef4aa752f7c161a8"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-js-2.7.2-sources.jar",
+          "url": "snakeyaml-engine-kmp-js-2.7.2-sources.jar",
+          "size": 179092,
+          "sha512": "15132fba92d466340b0a1a243bdc6a9556ee913311f2e638b7f905cd66a45a9d8117ffd59ba5757ff9d08432fe712ea9a19df4d2b75a1a531e8f4cdc4617a730",
+          "sha256": "315d5c1dae486fe7086149b4242c9c95d8e1691fb5b235f486ebadde72f376de",
+          "sha1": "a2b7e9bd3601e91fd8f2e922798b5d8fedd94da4",
+          "md5": "473338d80068c8d3ebd55d79b2ae15ac"
+        }
+      ]
+    }
+  ]
+}

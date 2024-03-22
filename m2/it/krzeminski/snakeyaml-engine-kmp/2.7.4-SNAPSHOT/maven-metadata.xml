@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp</artifactId>
   <versioning>
-    <lastUpdated>20240321134346</lastUpdated>
+    <lastUpdated>20240322215017</lastUpdated>
     <snapshot>
-      <timestamp>20240321.134346</timestamp>
+      <timestamp>20240322.215017</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>kotlin-tooling-metadata</classifier>
-        <extension>json</extension>
-        <value>2.7.4-20240321.134346-1</value>
-        <updated>20240321134346</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>jar</extension>
-        <value>2.7.4-20240321.134346-1</value>
-        <updated>20240321134346</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>2.7.4-20240321.134346-1</value>
-        <updated>20240321134346</updated>
+        <value>2.7.4-20240322.215017-1</value>
+        <updated>20240322215017</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.7.4-20240321.134346-1</value>
-        <updated>20240321134346</updated>
+        <value>2.7.4-20240322.215017-1</value>
+        <updated>20240322215017</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.7.4-20240322.215017-1</value>
+        <updated>20240322215017</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>kotlin-tooling-metadata</classifier>
+        <extension>json</extension>
+        <value>2.7.4-20240322.215017-1</value>
+        <updated>20240322215017</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2.7.4-20240321.134346-1</value>
-        <updated>20240321134346</updated>
+        <value>2.7.4-20240322.215017-1</value>
+        <updated>20240322215017</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

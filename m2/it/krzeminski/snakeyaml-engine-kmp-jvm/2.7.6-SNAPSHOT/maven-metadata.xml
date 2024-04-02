@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>it.krzeminski</groupId>
+  <artifactId>snakeyaml-engine-kmp-jvm</artifactId>
+  <versioning>
+    <lastUpdated>20240402175909</lastUpdated>
+    <snapshot>
+      <timestamp>20240402.175909</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.7.6-20240402.175909-1</value>
+        <updated>20240402175909</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.7.6-20240402.175909-1</value>
+        <updated>20240402175909</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.7.6-20240402.175909-1</value>
+        <updated>20240402175909</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.7.6-20240402.175909-1</value>
+        <updated>20240402175909</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>2.7.6-SNAPSHOT</version>
+</metadata>

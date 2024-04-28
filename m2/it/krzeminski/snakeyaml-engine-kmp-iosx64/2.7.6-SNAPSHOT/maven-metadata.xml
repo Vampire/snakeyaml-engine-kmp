@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-iosx64</artifactId>
   <versioning>
-    <lastUpdated>20240417155647</lastUpdated>
+    <lastUpdated>20240428175924</lastUpdated>
     <snapshot>
-      <timestamp>20240417.155647</timestamp>
+      <timestamp>20240428.175924</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
+        <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>2.7.6-20240417.155647-1</value>
-        <updated>20240417155647</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>2.7.6-20240417.155647-1</value>
-        <updated>20240417155647</updated>
+        <value>2.7.6-20240428.175924-1</value>
+        <updated>20240428175924</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.7.6-20240417.155647-1</value>
-        <updated>20240417155647</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>metadata</classifier>
-        <extension>jar</extension>
-        <value>2.7.6-20240417.155647-1</value>
-        <updated>20240417155647</updated>
+        <value>2.7.6-20240428.175924-1</value>
+        <updated>20240428175924</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>2.7.6-20240417.155647-1</value>
-        <updated>20240417155647</updated>
+        <value>2.7.6-20240428.175924-1</value>
+        <updated>20240428175924</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.7.6-20240428.175924-1</value>
+        <updated>20240428175924</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>2.7.6-20240428.175924-1</value>
+        <updated>20240428175924</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-watchosarm32</artifactId>
   <versioning>
-    <lastUpdated>20240510132626</lastUpdated>
+    <lastUpdated>20240510135903</lastUpdated>
     <snapshot>
-      <timestamp>20240510.132626</timestamp>
+      <timestamp>20240510.135903</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>2.7.6-20240510.132626-1</value>
-        <updated>20240510132626</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>2.7.6-20240510.132626-1</value>
-        <updated>20240510132626</updated>
+        <value>2.7.6-20240510.135903-1</value>
+        <updated>20240510135903</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2.7.6-20240510.132626-1</value>
-        <updated>20240510132626</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>2.7.6-20240510.132626-1</value>
-        <updated>20240510132626</updated>
+        <value>2.7.6-20240510.135903-1</value>
+        <updated>20240510135903</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.7.6-20240510.132626-1</value>
-        <updated>20240510132626</updated>
+        <value>2.7.6-20240510.135903-1</value>
+        <updated>20240510135903</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>2.7.6-20240510.135903-1</value>
+        <updated>20240510135903</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>2.7.6-20240510.135903-1</value>
+        <updated>20240510135903</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

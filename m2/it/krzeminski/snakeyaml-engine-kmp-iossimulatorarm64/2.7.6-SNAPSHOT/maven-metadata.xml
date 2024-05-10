@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-iossimulatorarm64</artifactId>
   <versioning>
-    <lastUpdated>20240502184133</lastUpdated>
+    <lastUpdated>20240510020156</lastUpdated>
     <snapshot>
-      <timestamp>20240502.184133</timestamp>
+      <timestamp>20240510.020156</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>2.7.6-20240502.184133-1</value>
-        <updated>20240502184133</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>2.7.6-20240510.020156-1</value>
+        <updated>20240510020156</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>2.7.6-20240502.184133-1</value>
-        <updated>20240502184133</updated>
+        <extension>klib</extension>
+        <value>2.7.6-20240510.020156-1</value>
+        <updated>20240510020156</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.7.6-20240510.020156-1</value>
+        <updated>20240510020156</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>2.7.6-20240502.184133-1</value>
-        <updated>20240502184133</updated>
+        <value>2.7.6-20240510.020156-1</value>
+        <updated>20240510020156</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>2.7.6-20240502.184133-1</value>
-        <updated>20240502184133</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>2.7.6-20240502.184133-1</value>
-        <updated>20240502184133</updated>
+        <extension>module</extension>
+        <value>2.7.6-20240510.020156-1</value>
+        <updated>20240510020156</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

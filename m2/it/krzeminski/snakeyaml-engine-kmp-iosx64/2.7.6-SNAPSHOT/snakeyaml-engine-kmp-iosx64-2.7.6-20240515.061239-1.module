@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/2.7.6-SNAPSHOT/snakeyaml-engine-kmp-2.7.6-SNAPSHOT.module",
+    "group": "it.krzeminski",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7.6-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "net.thauvin.erik.urlencoder",
+          "module": "urlencoder-lib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp.klib",
+          "url": "snakeyaml-engine-kmp-iosx64-2.7.6-SNAPSHOT.klib",
+          "size": 434273,
+          "sha512": "6befe77ae6d9e5b4f0b1a46d8e9a14f11b77210f9ee03254302f2385f6042f307872aa97d361532db7feba88db2de661579a6b1a951244f99bb5c5db9e35314d",
+          "sha256": "16fc310cf3f3e6041626c9fd25e57110c727e154f30e26f20ced0c3473f2b517",
+          "sha1": "058812e7a5012ae99eabf26c6e23c3e68c08a0c1",
+          "md5": "1524ee522141e22225227564962a7cca"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-iosx64-2.7.6-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-iosx64-2.7.6-SNAPSHOT-sources.jar",
+          "size": 186725,
+          "sha512": "4d8d7a73afb7f8ba853a943c0f788fc69be5dccb551e0a4c0d0e7cd148a9db1840516e244ed09a8ed126fbcd15977215f33d4f401ad86a03082fa36ab31b63e5",
+          "sha256": "adb211abd7d148051a56e0730b600afdfde4e5b60e28504f50db60939a3e4d74",
+          "sha1": "2f12bfac00daba638c0c6d1fa3fee1924cb9cdfb",
+          "md5": "26a90a5c2623b4920bc9638583f7a8e8"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "net.thauvin.erik.urlencoder",
+          "module": "urlencoder-lib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-iosx64-2.7.6-SNAPSHOT-metadata.jar",
+          "url": "snakeyaml-engine-kmp-iosx64-2.7.6-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

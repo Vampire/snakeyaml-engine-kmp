@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/2.7.6-SNAPSHOT/snakeyaml-engine-kmp-2.7.6-SNAPSHOT.module",
+    "group": "it.krzeminski",
+    "module": "snakeyaml-engine-kmp",
+    "version": "2.7.6-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-jvm-2.7.6-SNAPSHOT.jar",
+          "url": "snakeyaml-engine-kmp-jvm-2.7.6-SNAPSHOT.jar",
+          "size": 440698,
+          "sha512": "61feea36e77c552bf69508b65f33131f4555f68287a0b0e24cd60cecb20ecf97a26dfcdea04c85d8dd53aeda64955d4d62084f5a3c293657e5bff834b62f7d1c",
+          "sha256": "74f5dbde8b849b82c82f92fd69232433337a363f5603f365319261257d7bc520",
+          "sha1": "37dc39705c1994f80d49e1f96d3c2e40fa36819c",
+          "md5": "b9ee6669b36e39d1a038186712d1271b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "net.thauvin.erik.urlencoder",
+          "module": "urlencoder-lib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-jvm-2.7.6-SNAPSHOT.jar",
+          "url": "snakeyaml-engine-kmp-jvm-2.7.6-SNAPSHOT.jar",
+          "size": 440698,
+          "sha512": "61feea36e77c552bf69508b65f33131f4555f68287a0b0e24cd60cecb20ecf97a26dfcdea04c85d8dd53aeda64955d4d62084f5a3c293657e5bff834b62f7d1c",
+          "sha256": "74f5dbde8b849b82c82f92fd69232433337a363f5603f365319261257d7bc520",
+          "sha1": "37dc39705c1994f80d49e1f96d3c2e40fa36819c",
+          "md5": "b9ee6669b36e39d1a038186712d1271b"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-jvm-2.7.6-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-jvm-2.7.6-SNAPSHOT-sources.jar",
+          "size": 194599,
+          "sha512": "c7d6ea25e5fc8d860be5891ecb17dd8b41f3640a2c760e7eb652a168d2f22978cbfcfbbb7d17f5de7f56b634398e841871564796610db53dec66e503aaa99f30",
+          "sha256": "a1a0c643fb6646958869828ad559a8b5bc92a4d877219baa17f644aef087922f",
+          "sha1": "3c359a6253a03286b9ff15e095f66c846af7e525",
+          "md5": "94d4e4ba01e5995a6d89bdc6b9b312d6"
+        }
+      ]
+    }
+  ]
+}

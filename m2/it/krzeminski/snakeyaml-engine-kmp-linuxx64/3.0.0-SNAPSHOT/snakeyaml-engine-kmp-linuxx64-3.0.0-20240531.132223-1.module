@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../snakeyaml-engine-kmp/3.0.0-SNAPSHOT/snakeyaml-engine-kmp-3.0.0-SNAPSHOT.module",
+    "group": "it.krzeminski",
+    "module": "snakeyaml-engine-kmp",
+    "version": "3.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "net.thauvin.erik.urlencoder",
+          "module": "urlencoder-lib",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp.klib",
+          "url": "snakeyaml-engine-kmp-linuxx64-3.0.0-SNAPSHOT.klib",
+          "size": 489107,
+          "sha512": "3385edf9e684a8291438d7a9c7bcba7aaee281e1c971400bfe4c3d2a866060f5c94bde9fab936f131e3a826a11574aa7457a5d71644e736270cc64659cb06cea",
+          "sha256": "553ef3313876c5cf7b0a00fda636118fc8807dd6c25e66209eafa77dda07c6e4",
+          "sha1": "9c95e12788020359633e254cb0a414eaf2d11e1d",
+          "md5": "a3a1bac01f6caafa328da161b4870596"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "snakeyaml-engine-kmp-linuxx64-3.0.0-SNAPSHOT-sources.jar",
+          "url": "snakeyaml-engine-kmp-linuxx64-3.0.0-SNAPSHOT-sources.jar",
+          "size": 186958,
+          "sha512": "6d5ac522918dc92fd430c87623ff8ba64ee2a713c1877fb10c7473fbcd17895df4918b57c1fd6bb98687793325eba97dd46f7cfba29ed704279e38d1e6ea23d4",
+          "sha256": "e831a2ab34d85330d49d27b4db33a2da0089743b1628be695e0c5da1caf1e4b9",
+          "sha1": "e51ad217b74aa90dea11990af78e544975c54fee",
+          "md5": "995e265c427970310167956701b4721d"
+        }
+      ]
+    }
+  ]
+}

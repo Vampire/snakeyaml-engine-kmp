@@ -3,10 +3,11 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-watchosx64</artifactId>
   <versioning>
-    <latest>3.0.0-SNAPSHOT</latest>
+    <latest>3.0.0</latest>
+    <release>3.0.0</release>
     <versions>
-      <version>3.0.0-SNAPSHOT</version>
+      <version>3.0.0</version>
     </versions>
-    <lastUpdated>20240601030209</lastUpdated>
+    <lastUpdated>20240602100511</lastUpdated>
   </versioning>
 </metadata>

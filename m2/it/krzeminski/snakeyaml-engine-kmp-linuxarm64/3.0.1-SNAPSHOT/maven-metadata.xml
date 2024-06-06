@@ -3,32 +3,32 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-linuxarm64</artifactId>
   <versioning>
-    <lastUpdated>20240602102958</lastUpdated>
+    <lastUpdated>20240606152931</lastUpdated>
     <snapshot>
-      <timestamp>20240602.102958</timestamp>
+      <timestamp>20240606.152931</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>3.0.1-20240602.102958-1</value>
-        <updated>20240602102958</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>pom</extension>
-        <value>3.0.1-20240602.102958-1</value>
-        <updated>20240602102958</updated>
+        <value>3.0.1-20240606.152931-1</value>
+        <updated>20240606152931</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.0.1-20240602.102958-1</value>
-        <updated>20240602102958</updated>
+        <value>3.0.1-20240606.152931-1</value>
+        <updated>20240606152931</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>3.0.1-20240602.102958-1</value>
-        <updated>20240602102958</updated>
+        <value>3.0.1-20240606.152931-1</value>
+        <updated>20240606152931</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>3.0.1-20240606.152931-1</value>
+        <updated>20240606152931</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

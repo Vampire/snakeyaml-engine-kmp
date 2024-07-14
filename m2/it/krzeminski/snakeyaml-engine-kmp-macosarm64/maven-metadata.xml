@@ -3,11 +3,10 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-macosarm64</artifactId>
   <versioning>
-    <latest>3.0.1</latest>
-    <release>3.0.1</release>
+    <latest>3.0.2-SNAPSHOT</latest>
     <versions>
-      <version>3.0.1</version>
+      <version>3.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20240714203646</lastUpdated>
+    <lastUpdated>20240714204128</lastUpdated>
   </versioning>
 </metadata>

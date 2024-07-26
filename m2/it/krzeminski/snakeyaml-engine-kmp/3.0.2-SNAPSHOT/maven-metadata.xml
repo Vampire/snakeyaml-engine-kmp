@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp</artifactId>
   <versioning>
-    <lastUpdated>20240722080426</lastUpdated>
+    <lastUpdated>20240726145711</lastUpdated>
     <snapshot>
-      <timestamp>20240722.080426</timestamp>
+      <timestamp>20240726.145711</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>3.0.2-20240722.080426-1</value>
-        <updated>20240722080426</updated>
+        <extension>pom</extension>
+        <value>3.0.2-20240726.145711-1</value>
+        <updated>20240726145711</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>3.0.2-20240722.080426-1</value>
-        <updated>20240722080426</updated>
+        <value>3.0.2-20240726.145711-1</value>
+        <updated>20240726145711</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>kotlin-tooling-metadata</classifier>
         <extension>json</extension>
-        <value>3.0.2-20240722.080426-1</value>
-        <updated>20240722080426</updated>
+        <value>3.0.2-20240726.145711-1</value>
+        <updated>20240726145711</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>3.0.2-20240722.080426-1</value>
-        <updated>20240722080426</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>3.0.2-20240726.145711-1</value>
+        <updated>20240726145711</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>3.0.2-20240722.080426-1</value>
-        <updated>20240722080426</updated>
+        <value>3.0.2-20240726.145711-1</value>
+        <updated>20240726145711</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

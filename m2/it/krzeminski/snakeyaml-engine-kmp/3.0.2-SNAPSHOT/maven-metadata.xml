@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp</artifactId>
   <versioning>
-    <lastUpdated>20240802193710</lastUpdated>
+    <lastUpdated>20240803194234</lastUpdated>
     <snapshot>
-      <timestamp>20240802.193710</timestamp>
+      <timestamp>20240803.194234</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>3.0.2-20240802.193710-1</value>
-        <updated>20240802193710</updated>
+        <extension>module</extension>
+        <value>3.0.2-20240803.194234-1</value>
+        <updated>20240803194234</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>3.0.2-20240802.193710-1</value>
-        <updated>20240802193710</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>kotlin-tooling-metadata</classifier>
-        <extension>json</extension>
-        <value>3.0.2-20240802.193710-1</value>
-        <updated>20240802193710</updated>
+        <value>3.0.2-20240803.194234-1</value>
+        <updated>20240803194234</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.0.2-20240802.193710-1</value>
-        <updated>20240802193710</updated>
+        <value>3.0.2-20240803.194234-1</value>
+        <updated>20240803194234</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>3.0.2-20240802.193710-1</value>
-        <updated>20240802193710</updated>
+        <classifier>kotlin-tooling-metadata</classifier>
+        <extension>json</extension>
+        <value>3.0.2-20240803.194234-1</value>
+        <updated>20240803194234</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.0.2-20240803.194234-1</value>
+        <updated>20240803194234</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

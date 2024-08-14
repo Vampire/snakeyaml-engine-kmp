@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-watchosx64</artifactId>
   <versioning>
-    <lastUpdated>20240806170054</lastUpdated>
+    <lastUpdated>20240814130028</lastUpdated>
     <snapshot>
-      <timestamp>20240806.170054</timestamp>
+      <timestamp>20240814.130028</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.0.2-20240806.170054-1</value>
-        <updated>20240806170054</updated>
+        <value>3.0.2-20240814.130028-1</value>
+        <updated>20240814130028</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>3.0.2-20240806.170054-1</value>
-        <updated>20240806170054</updated>
+        <value>3.0.2-20240814.130028-1</value>
+        <updated>20240814130028</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>3.0.2-20240806.170054-1</value>
-        <updated>20240806170054</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>3.0.2-20240806.170054-1</value>
-        <updated>20240806170054</updated>
+        <value>3.0.2-20240814.130028-1</value>
+        <updated>20240814130028</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>3.0.2-20240806.170054-1</value>
-        <updated>20240806170054</updated>
+        <value>3.0.2-20240814.130028-1</value>
+        <updated>20240814130028</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.0.2-20240814.130028-1</value>
+        <updated>20240814130028</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

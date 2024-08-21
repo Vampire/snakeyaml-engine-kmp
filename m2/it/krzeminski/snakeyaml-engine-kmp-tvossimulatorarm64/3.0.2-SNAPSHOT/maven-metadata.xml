@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-tvossimulatorarm64</artifactId>
   <versioning>
-    <lastUpdated>20240821104121</lastUpdated>
+    <lastUpdated>20240821123254</lastUpdated>
     <snapshot>
-      <timestamp>20240821.104121</timestamp>
+      <timestamp>20240821.123254</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.0.2-20240821.104121-1</value>
-        <updated>20240821104121</updated>
+        <value>3.0.2-20240821.123254-1</value>
+        <updated>20240821123254</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>3.0.2-20240821.123254-1</value>
+        <updated>20240821123254</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>3.0.2-20240821.123254-1</value>
+        <updated>20240821123254</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>3.0.2-20240821.104121-1</value>
-        <updated>20240821104121</updated>
+        <value>3.0.2-20240821.123254-1</value>
+        <updated>20240821123254</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>3.0.2-20240821.104121-1</value>
-        <updated>20240821104121</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>klib</extension>
-        <value>3.0.2-20240821.104121-1</value>
-        <updated>20240821104121</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>3.0.2-20240821.104121-1</value>
-        <updated>20240821104121</updated>
+        <value>3.0.2-20240821.123254-1</value>
+        <updated>20240821123254</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

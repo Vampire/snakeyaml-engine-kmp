@@ -3,38 +3,38 @@
   <groupId>it.krzeminski</groupId>
   <artifactId>snakeyaml-engine-kmp-watchosarm32</artifactId>
   <versioning>
-    <lastUpdated>20240822062408</lastUpdated>
+    <lastUpdated>20240823125622</lastUpdated>
     <snapshot>
-      <timestamp>20240822.062408</timestamp>
+      <timestamp>20240823.125622</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>metadata</classifier>
-        <extension>jar</extension>
-        <value>3.0.3-20240822.062408-1</value>
-        <updated>20240822062408</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>klib</extension>
-        <value>3.0.3-20240822.062408-1</value>
-        <updated>20240822062408</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>3.0.3-20240822.062408-1</value>
-        <updated>20240822062408</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>3.0.3-20240822.062408-1</value>
-        <updated>20240822062408</updated>
+        <value>3.0.3-20240823.125622-1</value>
+        <updated>20240823125622</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.0.3-20240822.062408-1</value>
-        <updated>20240822062408</updated>
+        <value>3.0.3-20240823.125622-1</value>
+        <updated>20240823125622</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>3.0.3-20240823.125622-1</value>
+        <updated>20240823125622</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.0.3-20240823.125622-1</value>
+        <updated>20240823125622</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>metadata</classifier>
+        <extension>jar</extension>
+        <value>3.0.3-20240823.125622-1</value>
+        <updated>20240823125622</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
